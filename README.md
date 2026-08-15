@@ -1,7 +1,7 @@
-# MiSTercade support files
+# MiSTercade mapping database
 
-Source repository for MiSTercade mapping profiles, installer scripts, and firmware packages.
+Generated per-game controller mappings consumed by MiSTer Downloader.
 
-[MiSTercade setup, mappings, firmware, and direct downloads](https://misteraddons-docs.pages.dev/products/mistercade/)
+[Choose a profile and install MiSTercade mappings](https://misteraddons-docs.pages.dev/setup/mistercade-mappings/)
 
-This repository remains the source used to build and update the published downloads. Most users should follow the documentation page above.
+This repository is a published data source. Most users should use the documentation page above instead of browsing or copying files manually.
