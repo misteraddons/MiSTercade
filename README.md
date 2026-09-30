@@ -53,3 +53,4 @@ You can only have one downloader ini per MiSTercade version. Multiple downloader
 | [`mistercade_v1/`](mistercade_v1/) | MiSTercade V1 | mappings |
 | [`mistercade_v1_2025/`](mistercade_v1_2025/) | MiSTercade V1 2025 | mappings, gamecontrollerdb, firmware |
 | [`mistercade_v2/`](mistercade_v2/) | MiSTercade V2 | mappings, gamecontrollerdb, firmware |
+| [`mistercade_2p_encoder_v2/`](mistercade_2p_encoder_v2/) | MiSTercade 2P Encoder V2 | mappings |

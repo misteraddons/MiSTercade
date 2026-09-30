@@ -23,19 +23,29 @@ options_data() {
 10|MiSTercade V2|Map files|Freeplay / OSD/menu combo|v2|maps|maps-v2-freeplay-osd|mistercade_v2/mappings/downloader_maps-v2-freeplay-osd.ini|downloader_maps-v2-freeplay-osd.ini
 11|MiSTercade V2|Map files|Standard / No-menu combo|v2|maps|maps-v2-nomenu|mistercade_v2/mappings/downloader_maps-v2-nomenu.ini|downloader_maps-v2-nomenu.ini
 12|MiSTercade V2|Map files|Freeplay / No-menu combo|v2|maps|maps-v2-freeplay-nomenu|mistercade_v2/mappings/downloader_maps-v2-freeplay-nomenu.ini|downloader_maps-v2-freeplay-nomenu.ini
-13|MiSTercade V1 2025|GamecontrollerDB|Standard / OSD/menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-osd|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-osd.ini|downloader_gamecontrollerdb-v1-2025-osd.ini
-14|MiSTercade V1 2025|GamecontrollerDB|Freeplay / OSD/menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-freeplay-osd|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-freeplay-osd.ini|downloader_gamecontrollerdb-v1-2025-freeplay-osd.ini
-15|MiSTercade V1 2025|GamecontrollerDB|Standard / No-menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-nomenu|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-nomenu.ini|downloader_gamecontrollerdb-v1-2025-nomenu.ini
-16|MiSTercade V1 2025|GamecontrollerDB|Freeplay / No-menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-freeplay-nomenu|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-freeplay-nomenu.ini|downloader_gamecontrollerdb-v1-2025-freeplay-nomenu.ini
-17|MiSTercade V2|GamecontrollerDB|Standard / OSD/menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-osd|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-osd.ini|downloader_gamecontrollerdb-v2-osd.ini
-18|MiSTercade V2|GamecontrollerDB|Freeplay / OSD/menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-freeplay-osd|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-freeplay-osd.ini|downloader_gamecontrollerdb-v2-freeplay-osd.ini
-19|MiSTercade V2|GamecontrollerDB|Standard / No-menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-nomenu|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-nomenu.ini|downloader_gamecontrollerdb-v2-nomenu.ini
-20|MiSTercade V2|GamecontrollerDB|Freeplay / No-menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-freeplay-nomenu|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-freeplay-nomenu.ini|downloader_gamecontrollerdb-v2-freeplay-nomenu.ini
+13|MiSTercade 2P Encoder V2|Map files|Standard / OSD/menu combo|2p-encoder-v2|maps|maps-2p-encoder-v2-osd|mistercade_2p_encoder_v2/mappings/downloader_maps-2p-encoder-v2-osd.ini|downloader_maps-2p-encoder-v2-osd.ini
+14|MiSTercade 2P Encoder V2|Map files|Freeplay / OSD/menu combo|2p-encoder-v2|maps|maps-2p-encoder-v2-freeplay-osd|mistercade_2p_encoder_v2/mappings/downloader_maps-2p-encoder-v2-freeplay-osd.ini|downloader_maps-2p-encoder-v2-freeplay-osd.ini
+15|MiSTercade 2P Encoder V2|Map files|Standard / No-menu combo|2p-encoder-v2|maps|maps-2p-encoder-v2-nomenu|mistercade_2p_encoder_v2/mappings/downloader_maps-2p-encoder-v2-nomenu.ini|downloader_maps-2p-encoder-v2-nomenu.ini
+16|MiSTercade 2P Encoder V2|Map files|Freeplay / No-menu combo|2p-encoder-v2|maps|maps-2p-encoder-v2-freeplay-nomenu|mistercade_2p_encoder_v2/mappings/downloader_maps-2p-encoder-v2-freeplay-nomenu.ini|downloader_maps-2p-encoder-v2-freeplay-nomenu.ini
+17|MiSTercade V1 2025|GamecontrollerDB|Standard / OSD/menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-osd|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-osd.ini|downloader_gamecontrollerdb-v1-2025-osd.ini
+18|MiSTercade V1 2025|GamecontrollerDB|Freeplay / OSD/menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-freeplay-osd|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-freeplay-osd.ini|downloader_gamecontrollerdb-v1-2025-freeplay-osd.ini
+19|MiSTercade V1 2025|GamecontrollerDB|Standard / No-menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-nomenu|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-nomenu.ini|downloader_gamecontrollerdb-v1-2025-nomenu.ini
+20|MiSTercade V1 2025|GamecontrollerDB|Freeplay / No-menu combo|v1-2025|gamecontrollerdb|gamecontrollerdb-v1-2025-freeplay-nomenu|mistercade_v1_2025/gamecontrollerdb/downloader_gamecontrollerdb-v1-2025-freeplay-nomenu.ini|downloader_gamecontrollerdb-v1-2025-freeplay-nomenu.ini
+21|MiSTercade V2|GamecontrollerDB|Standard / OSD/menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-osd|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-osd.ini|downloader_gamecontrollerdb-v2-osd.ini
+22|MiSTercade V2|GamecontrollerDB|Freeplay / OSD/menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-freeplay-osd|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-freeplay-osd.ini|downloader_gamecontrollerdb-v2-freeplay-osd.ini
+23|MiSTercade V2|GamecontrollerDB|Standard / No-menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-nomenu|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-nomenu.ini|downloader_gamecontrollerdb-v2-nomenu.ini
+24|MiSTercade V2|GamecontrollerDB|Freeplay / No-menu combo|v2|gamecontrollerdb|gamecontrollerdb-v2-freeplay-nomenu|mistercade_v2/gamecontrollerdb/downloader_gamecontrollerdb-v2-freeplay-nomenu.ini|downloader_gamecontrollerdb-v2-freeplay-nomenu.ini
 OPTIONS_EOF
 }
 
 conflicting_files() {
     case "$1" in
+        2p-encoder-v2)
+            printf '%s\n' 'downloader_maps-2p-encoder-v2-osd.ini'
+            printf '%s\n' 'downloader_maps-2p-encoder-v2-freeplay-osd.ini'
+            printf '%s\n' 'downloader_maps-2p-encoder-v2-nomenu.ini'
+            printf '%s\n' 'downloader_maps-2p-encoder-v2-freeplay-nomenu.ini'
+            ;;
         v1)
             printf '%s\n' 'downloader_maps-v1-osd.ini'
             printf '%s\n' 'downloader_maps-v1-freeplay-osd.ini'
