@@ -35,8 +35,6 @@ DEFAULT_DB_OPERATOR_URL = (
 DEFAULT_FINDER_IGNORE = (
     "README.md",
     "LICENSE",
-    "CLAUDE.md",
-    "AGENTS.md",
     ".DS_Store",
     "scripts",
     "db.json",
