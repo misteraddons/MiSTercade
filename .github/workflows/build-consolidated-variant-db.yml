@@ -10,7 +10,6 @@ on:
   push:
     branches:
       - "maps-*"
-      - "gamecontrollerdb-*"
 
 permissions:
   contents: write
@@ -19,7 +18,7 @@ jobs:
   build-db:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -31,6 +30,25 @@ jobs:
           if [ -z "$variant_key" ]; then
             variant_key="$GITHUB_REF_NAME"
           fi
+          if [[ "$variant_key" == gamecontrollerdb-* ]]; then
+            echo "gamecontrollerdb variant publishing is paused."
+            exit 0
+          fi
           python3 scripts/build_consolidated_variant_db.py \
             --variant-key "$variant_key" \
+            --publish
+
+      # Older V1 setups still list [misteraddons/mistercade_mappings], which
+      # reads the db branch. Rebuild it from the same V1 commit so it cannot
+      # fall behind maps-v1-osd.
+      - name: Publish legacy V1 database
+        if: github.ref_name == 'maps-v1-osd'
+        run: |
+          # The previous step left the checkout on its orphan database branch.
+          git checkout --force "$GITHUB_SHA"
+          git clean -fdxq
+          python3 scripts/build_consolidated_variant_db.py \
+            --variant-key maps-v1-osd \
+            --db-id misteraddons/mistercade_mappings \
+            --db-branch db \
             --publish
